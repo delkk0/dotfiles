@@ -30,3 +30,5 @@ bindkey  "^[[3~"  delete-char
 # SSH
 export GPG_TTY=$(tty)
 
+# Configure dotfiles bare repo
+alias config='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
